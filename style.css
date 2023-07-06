@@ -1,0 +1,52 @@
+
+
+
+.container {
+    background-color: #cacaca;
+    padding: 10px;
+    margin: 50px;
+    height: 1024px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.item {
+    background-color: #ff0037;
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+   margin: 10px;
+   flex-grow: 1;
+}
+
+/*.item-3 {
+    height:150px ;
+
+}
+
+.item-4{
+ align-self: center;
+}
+*/
+.item-1{
+  order: 3;
+}
+
+.item-2 {
+ order: 4;
+}
+.item-3 {
+order: 0;
+flex-grow: 3;  /*3rd block is 3 times bigger than the rest*/
+flex-shrink: 50px;
+}
+
+.item-4 {
+order: 1;
+}
+
+.item-5 {
+order: 2;
+}
